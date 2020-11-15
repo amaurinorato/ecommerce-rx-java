@@ -1,2 +1,2 @@
 # E-COMMERCE RX-JAVA
-This is a project of a e-commerce, created usin RX-JAVA.
+This is a project of an e-commerce, created using RX-JAVA.
