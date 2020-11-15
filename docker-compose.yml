@@ -1,0 +1,16 @@
+version: "3"
+services:
+  tad:
+    image: postgres:9.6
+    container_name: "postgres"
+    environment:
+      - POSTGRES_DB=rxjava-products
+      - POSTGRES_USER=postgres
+      - TZ=GMT
+      - POSTGRES_PASSWORD=post
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
+volumes:
+  database-data:
